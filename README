@@ -1,0 +1,41 @@
+Copyright (C) 2016 mirage335
+See the end of the file for license conditions.
+See license.txt for CompactExposureLamp license conditions.
+
+__Usage__
+Nominally ~12V/25A power. Recommend pulse-width modulation or variable-current supply for controlling luminious flux.
+
+Minimum voltage is 8.4V. Modulating voltage to adjust luminious flux is possible, but not recommended due to non-linear diode effects.
+
+Intended working distance is ~6mm.
+
+Strongly recommend purchasing the LEDs in bulk. Much lower prices.
+
+BOM will not be accurate, as the array is formed by copy/pasting in the PCB layout tool. Multiply all quantities by the number of LED strings in the array, currently 105.
+
+__Design__
+
+*) Approximately 0.13mm shadows can be achieved at a working distance of 0.5mm with 492-1812-ND, which has a 15deg viewing angle. However, it is a through-hole component, approximately 8mm tall.
+*) Approximately 0.26mm shadows can be achieved at the same working distance with 492-1534-2-ND, which has a 30deg viewing angle. As a surface mount component, it is only 1.5mm tall.
+
+USA companies provide all parts in these schematics.
+
+__Safety__
+
+Intense ultraviolet light can be hazardous to vision, do not view.
+
+__Copyright__
+This file is part of CompactExposureLamp.
+
+CompactExposureLamp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+CompactExposureLamp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with CompactExposureLamp.  If not, see <http://www.gnu.org/licenses/>.

@@ -1,0 +1,45 @@
+( pcb2gcode 1.1.4 )
+
+G94     ( Inches per minute feed rate. )
+G20     ( Units == INCHES.             )
+G90     ( Absolute coordinates.        )
+S10000  ( RPM spindle speed.           )
+M3      ( Spindle on clockwise.        )
+
+G64 P0.00500 ( set maximum deviation from commanded toolpath )
+
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z0.19685 ( retract )
+
+G00 X0.35800 Y9.04212 ( rapid move to begin. )
+G01 Z0.00000 F0.19685 ( plunge. )
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+X0.35800 Y9.04212
+X0.35800 Y-0.00088
+X0.35700 Y-0.00088
+X0.35700 Y-0.00188
+X0.35600 Y-0.00188
+X0.35600 Y-0.00288
+X-0.00100 Y-0.00288
+X-0.00100 Y-0.00188
+X-0.00200 Y-0.00188
+X-0.00200 Y-0.00088
+X-0.00300 Y-0.00088
+X-0.00300 Y9.05712
+X-0.00200 Y9.05712
+X-0.00200 Y9.05812
+X-0.00100 Y9.05812
+X-0.00100 Y9.05912
+X0.35600 Y9.05912
+X0.35600 Y9.05812
+X0.35700 Y9.05812
+X0.35700 Y9.05712
+X0.35800 Y9.05712
+X0.35800 Y9.04212
+
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z0.19685 ( retract )
+
+M9 ( Coolant off. )
+M2 ( Program end. )
+

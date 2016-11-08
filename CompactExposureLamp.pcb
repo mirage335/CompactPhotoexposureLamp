@@ -1,0 +1,3326 @@
+# release: pcb 1.99z
+
+# To read pcb files, the pcb version (or the git source date) must be >= the file version
+FileVersion[20091103]
+
+PCB["" 9.0000mm 230.0000mm]
+
+Grid[984.251969 0.0000 0.0000 0]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[10.00mil 0.10mil 6.00mil 0.10mil 13.00mil 7.00mil]
+Flags("showdrc,nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2,s:3")
+Styles["Signal,15.00mil,40.00mil,25.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,3.5000mm,3.0000mm,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
+
+Symbol[' ' 18.00mil]
+(
+)
+Symbol['!' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 35.00mil 8.00mil]
+)
+Symbol['"' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 20.00mil 8.00mil]
+)
+Symbol['#' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 20.00mil 5.00mil 40.00mil 8.00mil]
+)
+Symbol['$' 12.00mil]
+(
+	SymbolLine[15.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['%' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 40.00mil 10.00mil 8.00mil]
+	SymbolLine[35.00mil 50.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[40.00mil 40.00mil 40.00mil 45.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 40.00mil 40.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 45.00mil 30.00mil 50.00mil 8.00mil]
+	SymbolLine[30.00mil 50.00mil 35.00mil 50.00mil 8.00mil]
+)
+Symbol['&' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[''' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 10.00mil 8.00mil]
+)
+Symbol['(' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+)
+Symbol[')' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['*' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['+' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 20.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol[',' 12.00mil]
+(
+	SymbolLine[0.0000 60.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['-' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['.' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['/' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 30.00mil 15.00mil 8.00mil]
+)
+Symbol['0' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['1' 12.00mil]
+(
+	SymbolLine[0.0000 18.00mil 8.00mil 10.00mil 8.00mil]
+	SymbolLine[8.00mil 10.00mil 8.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 15.00mil 50.00mil 8.00mil]
+)
+Symbol['2' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['3' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[20.00mil 23.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['4' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['5' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 15.00mil 25.00mil 8.00mil]
+	SymbolLine[15.00mil 25.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['6' 12.00mil]
+(
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 28.00mil 20.00mil 33.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 33.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['7' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+)
+Symbol['8' 12.00mil]
+(
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 37.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[7.00mil 30.00mil 13.00mil 30.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 37.00mil 8.00mil]
+	SymbolLine[20.00mil 37.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 23.00mil 7.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 23.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 23.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 20.00mil 23.00mil 8.00mil]
+)
+Symbol['9' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol[':' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol[';' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 10.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['<' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 20.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 40.00mil 8.00mil]
+)
+Symbol['=' 12.00mil]
+(
+	SymbolLine[0.0000 25.00mil 20.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['>' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['?' 12.00mil]
+(
+	SymbolLine[10.00mil 30.00mil 10.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 20.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 20.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 20.00mil 8.00mil]
+)
+Symbol['@' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 40.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 40.00mil 50.00mil 8.00mil]
+	SymbolLine[50.00mil 35.00mil 50.00mil 10.00mil 8.00mil]
+	SymbolLine[50.00mil 10.00mil 40.00mil 0.0000 8.00mil]
+	SymbolLine[40.00mil 0.0000 10.00mil 0.0000 8.00mil]
+	SymbolLine[10.00mil 0.0000 0.0000 10.00mil 8.00mil]
+	SymbolLine[15.00mil 20.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 30.00mil 35.00mil 8.00mil]
+	SymbolLine[30.00mil 35.00mil 35.00mil 30.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 40.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 30.00mil 35.00mil 15.00mil 8.00mil]
+	SymbolLine[35.00mil 20.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 30.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 15.00mil 20.00mil 8.00mil]
+	SymbolLine[40.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+)
+Symbol['A' 12.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 20.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 18.00mil 10.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 20.00mil 8.00mil]
+	SymbolLine[25.00mil 20.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['B' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 33.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 33.00mil 8.00mil]
+	SymbolLine[5.00mil 28.00mil 20.00mil 28.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 23.00mil 8.00mil]
+	SymbolLine[20.00mil 28.00mil 25.00mil 23.00mil 8.00mil]
+)
+Symbol['C' 12.00mil]
+(
+	SymbolLine[7.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 43.00mil 7.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 0.0000 43.00mil 8.00mil]
+	SymbolLine[0.0000 17.00mil 7.00mil 10.00mil 8.00mil]
+	SymbolLine[7.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['D' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[18.00mil 10.00mil 25.00mil 17.00mil 8.00mil]
+	SymbolLine[25.00mil 17.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[18.00mil 50.00mil 25.00mil 43.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 18.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 18.00mil 10.00mil 8.00mil]
+)
+Symbol['E' 12.00mil]
+(
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['F' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 28.00mil 15.00mil 28.00mil 8.00mil]
+)
+Symbol['G' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['H' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 25.00mil 30.00mil 8.00mil]
+)
+Symbol['I' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['J' 12.00mil]
+(
+	SymbolLine[7.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 0.0000 40.00mil 8.00mil]
+)
+Symbol['K' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['L' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['M' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+	SymbolLine[30.00mil 10.00mil 30.00mil 50.00mil 8.00mil]
+)
+Symbol['N' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['O' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['P' 12.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['Q' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[15.00mil 10.00mil 20.00mil 15.00mil 8.00mil]
+	SymbolLine[20.00mil 15.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['R' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[25.00mil 15.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[13.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['S' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 25.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 15.00mil 0.0000 25.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['T' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['U' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 10.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['V' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 10.00mil 8.00mil]
+)
+Symbol['W' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 10.00mil 8.00mil]
+)
+Symbol['X' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['Y' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['Z' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 25.00mil 50.00mil 8.00mil]
+)
+Symbol['[' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['\' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol[']' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['^' 12.00mil]
+(
+	SymbolLine[0.0000 15.00mil 5.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 10.00mil 10.00mil 15.00mil 8.00mil]
+)
+Symbol['_' 12.00mil]
+(
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['a' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 45.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['b' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+)
+Symbol['c' 12.00mil]
+(
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['d' 12.00mil]
+(
+	SymbolLine[20.00mil 10.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['e' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 20.00mil 35.00mil 8.00mil]
+)
+Symbol['f' 10.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[10.00mil 10.00mil 15.00mil 10.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 10.00mil 30.00mil 8.00mil]
+)
+Symbol['g' 12.00mil]
+(
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+)
+Symbol['h' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['i' 10.00mil]
+(
+	SymbolLine[0.0000 20.00mil 0.0000 21.00mil 10.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['j' 10.00mil]
+(
+	SymbolLine[5.00mil 20.00mil 5.00mil 21.00mil 10.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 60.00mil 8.00mil]
+	SymbolLine[0.0000 65.00mil 5.00mil 60.00mil 8.00mil]
+)
+Symbol['k' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['l' 10.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['m' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+	SymbolLine[25.00mil 30.00mil 30.00mil 30.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 35.00mil 35.00mil 8.00mil]
+	SymbolLine[35.00mil 35.00mil 35.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['n' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['o' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['p' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[25.00mil 35.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['q' 12.00mil]
+(
+	SymbolLine[20.00mil 35.00mil 20.00mil 65.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 15.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['r' 12.00mil]
+(
+	SymbolLine[5.00mil 35.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+)
+Symbol['s' 12.00mil]
+(
+	SymbolLine[5.00mil 50.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 40.00mil 25.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 40.00mil 20.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 40.00mil 8.00mil]
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 25.00mil 35.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+)
+Symbol['t' 10.00mil]
+(
+	SymbolLine[5.00mil 10.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 25.00mil 10.00mil 25.00mil 8.00mil]
+)
+Symbol['u' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['v' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['w' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 10.00mil 50.00mil 8.00mil]
+	SymbolLine[10.00mil 50.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 30.00mil 15.00mil 45.00mil 8.00mil]
+	SymbolLine[15.00mil 45.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 50.00mil 25.00mil 50.00mil 8.00mil]
+	SymbolLine[25.00mil 50.00mil 30.00mil 45.00mil 8.00mil]
+	SymbolLine[30.00mil 30.00mil 30.00mil 45.00mil 8.00mil]
+)
+Symbol['x' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 50.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+)
+Symbol['y' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 0.0000 45.00mil 8.00mil]
+	SymbolLine[0.0000 45.00mil 5.00mil 50.00mil 8.00mil]
+	SymbolLine[20.00mil 30.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[15.00mil 65.00mil 20.00mil 60.00mil 8.00mil]
+	SymbolLine[5.00mil 65.00mil 15.00mil 65.00mil 8.00mil]
+	SymbolLine[0.0000 60.00mil 5.00mil 65.00mil 8.00mil]
+	SymbolLine[5.00mil 50.00mil 15.00mil 50.00mil 8.00mil]
+	SymbolLine[15.00mil 50.00mil 20.00mil 45.00mil 8.00mil]
+)
+Symbol['z' 12.00mil]
+(
+	SymbolLine[0.0000 30.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 30.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 20.00mil 50.00mil 8.00mil]
+)
+Symbol['{' 12.00mil]
+(
+	SymbolLine[5.00mil 15.00mil 10.00mil 10.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[0.0000 30.00mil 5.00mil 35.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[5.00mil 45.00mil 10.00mil 50.00mil 8.00mil]
+)
+Symbol['|' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 0.0000 50.00mil 8.00mil]
+)
+Symbol['}' 12.00mil]
+(
+	SymbolLine[0.0000 10.00mil 5.00mil 15.00mil 8.00mil]
+	SymbolLine[5.00mil 15.00mil 5.00mil 25.00mil 8.00mil]
+	SymbolLine[5.00mil 25.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 35.00mil 5.00mil 45.00mil 8.00mil]
+	SymbolLine[0.0000 50.00mil 5.00mil 45.00mil 8.00mil]
+)
+Symbol['~' 12.00mil]
+(
+	SymbolLine[0.0000 35.00mil 5.00mil 30.00mil 8.00mil]
+	SymbolLine[5.00mil 30.00mil 10.00mil 30.00mil 8.00mil]
+	SymbolLine[10.00mil 30.00mil 15.00mil 35.00mil 8.00mil]
+	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
+	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
+)
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "0.2500mm")
+Via[4.5000mm 3.0000mm 3.5000mm 20.00mil 0.0000 3.0000mm "" ""]
+Via[4.5000mm 223.0000mm 3.5000mm 20.00mil 0.0000 3.0000mm "" ""]
+Via[1.7500mm 7.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 13.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 19.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 25.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 31.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 37.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 43.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 49.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 55.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 61.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 67.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 73.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 79.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 85.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 91.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 97.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 103.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 109.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 115.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 121.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 127.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 133.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 139.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 145.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 151.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 157.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 163.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 169.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 175.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 181.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 187.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 193.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 199.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 205.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[1.7500mm 211.5000mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 14.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 20.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 26.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 32.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 38.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 44.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 50.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 56.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 62.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 68.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 74.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 80.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 86.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 92.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 98.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 104.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 110.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 4588.50mil 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 122.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 128.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 134.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 140.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 146.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 152.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 158.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 164.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 170.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 176.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 182.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 188.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 194.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 200.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 206.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 212.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+Via[7.2500mm 218.5480mm 40.00mil 20.00mil 0.0000 25.00mil "" ""]
+
+Element["hidename,onsolder" "1206" "R1" "75" 3.2499mm 7.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D3" "~30deg" 7.2500mm 14.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D2" "~30deg" 4.5000mm 12.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D1" "~30deg" 1.7500mm 10.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R2" "75" 3.2499mm 13.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D4" "~30deg" 7.2500mm 20.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D5" "~30deg" 4.5000mm 18.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D6" "~30deg" 1.7500mm 16.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R3" "75" 3.2499mm 19.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D7" "~30deg" 7.2500mm 26.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D8" "~30deg" 4.5000mm 24.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D9" "~30deg" 1.7500mm 22.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R4" "75" 3.2499mm 25.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D10" "~30deg" 7.2500mm 32.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D11" "~30deg" 4.5000mm 30.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D12" "~30deg" 1.7500mm 28.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R5" "75" 3.2499mm 31.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D13" "~30deg" 7.2500mm 38.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D14" "~30deg" 4.5000mm 36.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D15" "~30deg" 1.7500mm 34.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R6" "75" 3.2499mm 37.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D16" "~30deg" 7.2500mm 44.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D17" "~30deg" 4.5000mm 42.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D18" "~30deg" 1.7500mm 40.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R7" "75" 3.2499mm 43.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D19" "~30deg" 7.2500mm 50.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D20" "~30deg" 4.5000mm 48.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D21" "~30deg" 1.7500mm 46.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R8" "75" 3.2499mm 49.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D22" "~30deg" 7.2500mm 56.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D23" "~30deg" 4.5000mm 54.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D24" "~30deg" 1.7500mm 52.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R9" "75" 3.2499mm 55.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D25" "~30deg" 7.2500mm 62.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D26" "~30deg" 4.5000mm 60.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D27" "~30deg" 1.7500mm 58.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R10" "75" 3.2499mm 61.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D28" "~30deg" 7.2500mm 68.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D29" "~30deg" 4.5000mm 2620.00mil 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D30" "~30deg" 1.7500mm 64.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R11" "75" 3.2499mm 67.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D31" "~30deg" 7.2500mm 74.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D32" "~30deg" 4.5000mm 72.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D33" "~30deg" 1.7500mm 70.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R12" "75" 3.2499mm 73.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D34" "~30deg" 7.2500mm 80.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D35" "~30deg" 4.5000mm 78.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D36" "~30deg" 1.7500mm 76.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R13" "75" 3.2499mm 79.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D37" "~30deg" 7.2500mm 86.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D38" "~30deg" 4.5000mm 84.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D39" "~30deg" 1.7500mm 82.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R14" "75" 3.2499mm 85.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D40" "~30deg" 7.2500mm 92.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D41" "~30deg" 4.5000mm 90.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D42" "~30deg" 1.7500mm 88.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R15" "75" 3.2499mm 91.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D43" "~30deg" 7.2500mm 98.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D44" "~30deg" 4.5000mm 96.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D45" "~30deg" 1.7500mm 94.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R16" "75" 3.2499mm 97.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D46" "~30deg" 7.2500mm 104.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D47" "~30deg" 4.5000mm 102.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D48" "~30deg" 1.7500mm 100.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R17" "75" 3.2499mm 103.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D49" "~30deg" 7.2500mm 110.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D50" "~30deg" 4.5000mm 108.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D51" "~30deg" 1.7500mm 4194.80mil 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R18" "75" 3.2499mm 109.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D52" "~30deg" 7.2500mm 4588.50mil 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D53" "~30deg" 4.5000mm 114.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D54" "~30deg" 1.7500mm 112.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R19" "75" 3.2499mm 115.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D55" "~30deg" 7.2500mm 122.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D56" "~30deg" 4.5000mm 120.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D57" "~30deg" 1.7500mm 118.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R20" "75" 3.2499mm 121.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D58" "~30deg" 7.2500mm 128.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D59" "~30deg" 4.5000mm 4982.20mil 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D60" "~30deg" 1.7500mm 124.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R21" "75" 3.2499mm 127.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D61" "~30deg" 7.2500mm 134.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D62" "~30deg" 4.5000mm 132.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D63" "~30deg" 1.7500mm 130.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R22" "75" 3.2499mm 133.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D64" "~30deg" 7.2500mm 140.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D65" "~30deg" 4.5000mm 138.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D66" "~30deg" 1.7500mm 136.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R23" "75" 3.2499mm 139.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D67" "~30deg" 7.2500mm 146.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D68" "~30deg" 4.5000mm 144.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D69" "~30deg" 1.7500mm 142.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R24" "75" 3.2499mm 145.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D70" "~30deg" 7.2500mm 152.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D71" "~30deg" 4.5000mm 150.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D72" "~30deg" 1.7500mm 148.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R25" "75" 3.2499mm 151.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D73" "~30deg" 7.2500mm 158.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D74" "~30deg" 4.5000mm 156.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D75" "~30deg" 1.7500mm 154.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R26" "75" 3.2499mm 157.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D76" "~30deg" 7.2500mm 164.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D77" "~30deg" 4.5000mm 162.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D78" "~30deg" 1.7500mm 160.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R27" "75" 3.2499mm 163.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D79" "~30deg" 7.2500mm 170.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D80" "~30deg" 4.5000mm 168.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D81" "~30deg" 1.7500mm 166.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R28" "75" 3.2499mm 169.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D82" "~30deg" 7.2500mm 176.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D83" "~30deg" 4.5000mm 174.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D84" "~30deg" 1.7500mm 172.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R29" "75" 3.2499mm 175.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D85" "~30deg" 7.2500mm 182.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D86" "~30deg" 4.5000mm 180.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D87" "~30deg" 1.7500mm 178.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R30" "75" 3.2499mm 181.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D88" "~30deg" 7.2500mm 188.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D89" "~30deg" 4.5000mm 186.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D90" "~30deg" 1.7500mm 184.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R31" "75" 3.2499mm 187.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D91" "~30deg" 7.2500mm 194.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D92" "~30deg" 4.5000mm 192.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D93" "~30deg" 1.7500mm 190.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R32" "75" 3.2499mm 193.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D94" "~30deg" 7.2500mm 200.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D95" "~30deg" 4.5000mm 198.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D96" "~30deg" 1.7500mm 196.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R33" "75" 3.2499mm 199.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D97" "~30deg" 7.2500mm 206.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D98" "~30deg" 4.5000mm 204.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D99" "~30deg" 1.7500mm 202.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R34" "75" 3.2499mm 205.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D100" "~30deg" 7.2500mm 212.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D101" "~30deg" 4.5000mm 210.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D102" "~30deg" 1.7500mm 208.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename,onsolder" "1206" "R35" "75" 3.2499mm 211.5000mm 31.50mil -31.50mil 2 100 "auto"]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "1" "1" "onsolder,square"]
+	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 57.18mil "2" "2" "onsolder,square"]
+	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
+	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D103" "~30deg" 7.2500mm 218.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D104" "~30deg" 4.5000mm 216.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+
+Element["hidename" "SMD_DIODE 120 60" "D105" "~30deg" 1.7500mm 214.5480mm 0.0000 0.0000 1 100 ""]
+(
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-5.00mil 0.0000 5.00mil 0.0000 60.00mil 30.00mil 66.00mil "CATHODE" "1" "square"]
+	Pad[-5.00mil -120.00mil 5.00mil -120.00mil 60.00mil 30.00mil 66.00mil "ANODE" "2" "square"]
+	ElementLine [-50.00mil 45.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [50.00mil -165.00mil 50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil 50.00mil -165.00mil 8.00mil]
+	ElementLine [-50.00mil -165.00mil -50.00mil 45.00mil 8.00mil]
+	ElementLine [-50.00mil 35.00mil 50.00mil 35.00mil 8.00mil]
+
+	)
+Layer(1 "top")
+(
+	Line[1.7500mm 10.5480mm 3.4520mm 10.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 10.5480mm 4.5000mm 9.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 12.5480mm 6.2020mm 12.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 12.5480mm 7.2500mm 11.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 16.5480mm 3.4520mm 16.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 16.5480mm 4.5000mm 15.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 18.5480mm 6.2020mm 18.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 18.5480mm 7.2500mm 17.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 22.5480mm 3.4520mm 22.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 22.5480mm 4.5000mm 21.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 24.5480mm 6.2020mm 24.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 24.5480mm 7.2500mm 23.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 28.5480mm 3.4520mm 28.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 28.5480mm 4.5000mm 27.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 30.5480mm 6.2020mm 30.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 30.5480mm 7.2500mm 29.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 34.5480mm 3.4520mm 34.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 34.5480mm 4.5000mm 33.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 36.5480mm 6.2020mm 36.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 36.5480mm 7.2500mm 35.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 40.5480mm 3.4520mm 40.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 40.5480mm 4.5000mm 39.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 42.5480mm 6.2020mm 42.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 42.5480mm 7.2500mm 41.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 46.5480mm 3.4520mm 46.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 46.5480mm 4.5000mm 45.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 48.5480mm 6.2020mm 48.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 48.5480mm 7.2500mm 47.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 52.5480mm 3.4520mm 52.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 52.5480mm 4.5000mm 51.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 54.5480mm 6.2020mm 54.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 54.5480mm 7.2500mm 53.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 58.5480mm 3.4520mm 58.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 58.5480mm 4.5000mm 57.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 60.5480mm 6.2020mm 60.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 60.5480mm 7.2500mm 59.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 64.5480mm 3.4520mm 64.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 64.5480mm 4.5000mm 2500.00mil 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 2620.00mil 6.2020mm 2620.00mil 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 2620.00mil 7.2500mm 65.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 70.5480mm 3.4520mm 70.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 70.5480mm 4.5000mm 69.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 72.5480mm 6.2020mm 72.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 72.5480mm 7.2500mm 71.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 76.5480mm 3.4520mm 76.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 76.5480mm 4.5000mm 75.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 78.5480mm 6.2020mm 78.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 78.5480mm 7.2500mm 77.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 82.5480mm 3.4520mm 82.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 82.5480mm 4.5000mm 81.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 84.5480mm 6.2020mm 84.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 84.5480mm 7.2500mm 83.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 88.5480mm 3.4520mm 88.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 88.5480mm 4.5000mm 87.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 90.5480mm 6.2020mm 90.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 90.5480mm 7.2500mm 89.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 94.5480mm 3.4520mm 94.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 94.5480mm 4.5000mm 93.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 96.5480mm 6.2020mm 96.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 96.5480mm 7.2500mm 95.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 100.5480mm 3.4520mm 100.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 100.5480mm 4.5000mm 99.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 102.5480mm 6.2020mm 102.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 102.5480mm 7.2500mm 101.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 4194.80mil 3.4520mm 4194.80mil 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 4194.80mil 4.5000mm 105.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 108.5480mm 6.2020mm 108.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 108.5480mm 7.2500mm 107.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 112.5480mm 3.4520mm 112.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 112.5480mm 4.5000mm 111.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 114.5480mm 6.2020mm 114.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 114.5480mm 7.2500mm 113.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 118.5480mm 3.4520mm 118.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 118.5480mm 4.5000mm 117.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 120.5480mm 6.2020mm 120.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 120.5480mm 7.2500mm 119.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 124.5480mm 3.4520mm 124.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 124.5480mm 4.5000mm 123.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 4982.20mil 6.2020mm 4982.20mil 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 4982.20mil 7.2500mm 125.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 130.5480mm 3.4520mm 130.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 130.5480mm 4.5000mm 129.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 132.5480mm 6.2020mm 132.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 132.5480mm 7.2500mm 131.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 136.5480mm 3.4520mm 136.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 136.5480mm 4.5000mm 135.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 138.5480mm 6.2020mm 138.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 138.5480mm 7.2500mm 137.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 142.5480mm 3.4520mm 142.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 142.5480mm 4.5000mm 141.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 144.5480mm 6.2020mm 144.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 144.5480mm 7.2500mm 143.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 148.5480mm 3.4520mm 148.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 148.5480mm 4.5000mm 147.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 150.5480mm 6.2020mm 150.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 150.5480mm 7.2500mm 149.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 154.5480mm 3.4520mm 154.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 154.5480mm 4.5000mm 153.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 156.5480mm 6.2020mm 156.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 156.5480mm 7.2500mm 155.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 160.5480mm 3.4520mm 160.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 160.5480mm 4.5000mm 159.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 162.5480mm 6.2020mm 162.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 162.5480mm 7.2500mm 161.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 166.5480mm 3.4520mm 166.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 166.5480mm 4.5000mm 165.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 168.5480mm 6.2020mm 168.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 168.5480mm 7.2500mm 167.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 172.5480mm 3.4520mm 172.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 172.5480mm 4.5000mm 171.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 174.5480mm 6.2020mm 174.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 174.5480mm 7.2500mm 173.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 178.5480mm 3.4520mm 178.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 178.5480mm 4.5000mm 177.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 180.5480mm 6.2020mm 180.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 180.5480mm 7.2500mm 179.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 184.5480mm 3.4520mm 184.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 184.5480mm 4.5000mm 183.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 186.5480mm 6.2020mm 186.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 186.5480mm 7.2500mm 185.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 190.5480mm 3.4520mm 190.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 190.5480mm 4.5000mm 189.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 192.5480mm 6.2020mm 192.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 192.5480mm 7.2500mm 191.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 196.5480mm 3.4520mm 196.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 196.5480mm 4.5000mm 195.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 198.5480mm 6.2020mm 198.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 198.5480mm 7.2500mm 197.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 202.5480mm 3.4520mm 202.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 202.5480mm 4.5000mm 201.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 204.5480mm 6.2020mm 204.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 204.5480mm 7.2500mm 203.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 208.5480mm 3.4520mm 208.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 208.5480mm 4.5000mm 207.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 210.5480mm 6.2020mm 210.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 210.5480mm 7.2500mm 209.5000mm 15.00mil 20.00mil "clearline"]
+	Line[1.7500mm 214.5480mm 3.4520mm 214.5480mm 15.00mil 20.00mil "clearline"]
+	Line[3.4520mm 214.5480mm 4.5000mm 213.5000mm 15.00mil 20.00mil "clearline"]
+	Line[4.5000mm 216.5480mm 6.2020mm 216.5480mm 15.00mil 20.00mil "clearline"]
+	Line[6.2020mm 216.5480mm 7.2500mm 215.5000mm 15.00mil 20.00mil "clearline"]
+)
+Layer(2 "bottom")
+(
+	Line[4.7497mm 222.7503mm 4.5000mm 223.0000mm 15.00mil 20.00mil "clearline"]
+	Line[4.7497mm 211.5000mm 4.7497mm 3.2497mm 15.00mil 20.00mil "clearline"]
+	Line[4.7497mm 3.2497mm 4.5000mm 3.0000mm 15.00mil 20.00mil "clearline"]
+	Line[7.2500mm 14.5480mm 7.2500mm 220.2500mm 15.00mil 20.00mil "clearline"]
+	Line[7.2500mm 220.2500mm 4.5000mm 223.0000mm 15.00mil 20.00mil "clearline"]
+)
+Layer(3 "outline")
+(
+	Line[0.0000 0.0000 0.0000 230.0000mm 6.00mil 12.00mil "clearline"]
+	Line[0.0000 230.0000mm 9.0000mm 230.0000mm 6.00mil 12.00mil "clearline"]
+	Line[9.0000mm 230.0000mm 9.0000mm 0.0000 6.00mil 12.00mil "clearline"]
+	Line[9.0000mm 0.0000 0.0000 0.0000 6.00mil 12.00mil "clearline"]
+)
+Layer(4 "silk")
+(
+)
+Layer(5 "silk")
+(
+)
+NetList()
+(
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("D1-2")
+		Connect("R1-2")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("D1-1")
+		Connect("D2-2")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("D2-1")
+		Connect("D3-2")
+	)
+	Net("Vcc" "(unknown)")
+	(
+		Connect("R1-1")
+	)
+	Net("Vee" "(unknown)")
+	(
+		Connect("D3-1")
+	)
+)
